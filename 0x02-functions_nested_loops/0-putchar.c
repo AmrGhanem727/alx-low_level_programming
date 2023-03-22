@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 /**
  * main - It's the entry point for the program
  * Return: Always 0
