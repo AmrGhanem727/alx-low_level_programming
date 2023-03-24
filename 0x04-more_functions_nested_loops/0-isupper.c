@@ -5,12 +5,12 @@
  * Return: 1 for uppercase or 0 for otherwise
  */
 int _isupper(int x)
-{ 
-	if (x >= 65 && x<= 90)
+{
+	if (x >= 65 && x <= 90)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
