@@ -2,8 +2,7 @@
 /**
  * _isupper - checks for anuppercase character
  * @c: character to be checked
- * Return: 1 if upper case
- * 0 if lower case
+ * Return: 1 if upper case 0 if lower case
  */
 int _isupper(int c)
 {
@@ -11,7 +10,7 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else if (c >= 97 && c <= 122)
+	else
 	{
 		return (0);
 	}
